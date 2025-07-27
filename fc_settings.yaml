@@ -15,7 +15,7 @@
 #   - stellar：stellar主题
 # 支持配置多个友链页面并指定不同主题策略，每个用{}分隔，它们会被同时爬取，数据保存在一起。
 LINK: [
-     { link: "https://www.yyyzyyyz.cn/link/", theme: "butterfly" },  # 友链页地址1，修改为你的友链页地址
+     { link: "https://house.coderxst.top/link/", theme: "common2" },  # 友链页地址1，修改为你的友链页地址
 #     { link: "https://noionion.top/link/", theme: "butterfly" }, # 友链页地址2
     # { link: "https://immmmm.com/about/", theme: "common1" }, # 友链页地址3
 #     ...
@@ -66,7 +66,7 @@ MAX_POSTS_NUM:  5
 # 名称为PROXY，值为[IP]:[端口]或代理地址，比如：192.168.1.106:8080
 
 # 过期文章清除（天）
-OUTDATE_CLEAN: 60
+OUTDATE_CLEAN: 365
 
 # 定时任务，每天0点、6点、12点、18点、21点执行一次
 CRON: "0 0,6,12,18,21 * * *"
